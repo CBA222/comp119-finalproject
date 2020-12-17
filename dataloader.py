@@ -12,9 +12,9 @@ from torchvision.transforms import functional as F
 from torch.utils.data import DataLoader
 from torchvision.datasets import MNIST, CIFAR10, ImageFolder
 
-from dataloader.datasets import get_cifar_anomaly_dataset
-from dataloader.datasets import get_mnist_anomaly_dataset
-# from dataloader.kdd_dataset import get_loader
+#from dataloader.datasets import get_cifar_anomaly_dataset
+#from dataloader.datasets import get_mnist_anomaly_dataset
+from dataloader.kdd_dataset import *
 
 class Data:
     """ Dataloader containing train and valid sets.
